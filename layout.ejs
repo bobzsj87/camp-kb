@@ -10,28 +10,39 @@
     </script>
   </head>
   <body>
-    <div class="row header">
-        <div class="col-md-5 logo">
-          <img src="/images/logo.png" />
+    <div class="panel-container">
+      <div class="logo">
+        <img src="/images/logo.png">
+      </div>
+      <div class="panel-box container">
+        <div class="row">
+          <div class="col-md-12 title-container">
+            <span>
+              <%= breadcrumb[breadcrumb.length-1].anchor %>
+            </span>
+          </div>
         </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <ol class="breadcrumb">
-          <% breadcrumb.forEach(function(bc){ %>
-            <li class="<%= bc.isCurrent ? 'active' : ''%>">
-              <% if (bc.isCurrent) { %>
-              <%=  bc.anchor %>
-              <% } else { %>
-              <a href="<%= bc.href %>"><%= bc.anchor %></a>
-              <%}%>
-            </li>
-          <% }) %>
-        </ol>
+        <div class="row">
+          <div class="col-md-12">
+            <ol class="breadcrumb">
+              <% breadcrumb.forEach(function(bc){ %>
+                <li class="<%= bc.isCurrent ? 'active' : ''%>">
+                  <% if (bc.isCurrent) { %>
+                  <%=  bc.anchor %>
+                  <% } else { %>
+                  <a href="<%= bc.href %>"><%= bc.anchor %></a>
+                  <%}%>
+                </li>
+              <% }) %>
+            </ol>
+          </div>
+        </div>
+        <div class="main">
+          <%- body %>  
+        </div>
       </div>
     </div>
-    <div class="container">
-      <%- body %>  
-    </div>
+
+
   </body>
 </html>

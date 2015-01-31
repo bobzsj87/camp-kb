@@ -1,26 +1,59 @@
-.header{  
-    border-bottom: 1px solid black;
-    height: 60px;
+body{
+  background: url(/images/texture.png) repeat;
+  font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti
+}
+
+.panel-container{
+  border-top: 7px solid #28ddb9;
+  padding-bottom: 20px;
+}
+
+.panel-box{
+  background-color: white;
 }
 
 .logo{
-    margin: 15px 0 0 20px;
+    margin: 15px 0;
+    text-align: center;
 }
 .logo img{
     width: 180px;
 }
-.logo-sub{
-    font-family: helvetica77BoldCondensed,Arial,sans-serif;
-    color: #aaa;
-    font-size:12px;
+
+.breadcrumb{
+  background-color: white;
+  text-align: center;
 }
 
-h1,h2,h3, .btn{
-    text-transform: uppercase;
-    font-family: helvetica77BoldCondensed,Arial,sans-serif;
+.title-container{
+  text-align: center;
+  margin:10px 0;
+}
+.title-container span{
+  text-transform: uppercase;
+  font-family: helvetica77BoldCondensed,Arial,sans-serif; 
+  font-size:30px;
+  padding: 4px 0;
+  border-bottom: 1px solid black;
 }
 
-.btn{
-    padding:10px 40px;
+
+h1,h2, .btn{
+  font-family: helvetica77BoldCondensed,Arial,sans-serif;
 }
 
+h3, h4{
+  font-family: Georgia,Times,"Times New Roman",serif
+}
+
+.main{
+  padding:0 20px;
+}
+
+.list-group-item{
+  font-size:18px;
+  padding:10px;
+}
+.list-title{
+  font-family: Georgia,Times,"Times New Roman",serif
+}

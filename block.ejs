@@ -1,7 +1,8 @@
-<ul>
-<% items.forEach(function(i){ %>
-    <li>
-        <a href='<%= i.href %>'><%= i.anchor %></a>
-    </li>
-<% }) %>
-</ul>
+<div class="row"><div class="col-md-6 col-md-offset-3">
+    <div class="list-group">
+        <% items.forEach(function(i){ %>
+        <a href='<%= i.href %>' class="list-group-item">
+            <span class="glyphicon <%= i.isMD ? 'glyphicon-file' : 'glyphicon-folder-open'%>"><span> <span class="list-title"><%= i.anchor %></span></a>
+        <% }) %>
+    </div>
+</div></div>
