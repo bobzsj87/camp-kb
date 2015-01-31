@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Help Desk</title>
+    <link rel="SHORTCUT ICON" href="http://media.ef.com/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script>
+    </script>
+  </head>
+  <body>
+    <div class="row header">
+        <div class="col-md-5 logo">
+          <img src="/images/logo.png" />
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ol class="breadcrumb">
+          <% breadcrumb.forEach(function(bc){ %>
+            <li class="<%= bc.isCurrent ? 'active' : ''%>">
+              <% if (bc.isCurrent) { %>
+              <%=  bc.anchor %>
+              <% } else { %>
+              <a href="<%= bc.href %>"><%= bc.anchor %></a>
+              <%}%>
+            </li>
+          <% }) %>
+        </ol>
+      </div>
+    </div>
+    <div class="container">
+      <%- body %>  
+    </div>
+  </body>
+</html>
