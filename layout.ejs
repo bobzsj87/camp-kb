@@ -2,9 +2,13 @@
 <html>
   <head>
     <title>EF/Camp Help - <%= breadcrumb[breadcrumb.length-1].anchor %></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    
     <link rel="SHORTCUT ICON" href="http://media.ef.com/favicon.ico" />
+    <% if (lang == "zh") { %>
+    <link rel="stylesheet" type="text/css" href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.css">
+    <% } else {%>
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <% } %>
     <link rel="stylesheet" href="/stylesheets/style.css">
   </head>
   <body>
@@ -38,6 +42,9 @@
         <div class="main">
           <%- body %>  
         </div>
+      </div>
+      <div class="footer text-center">
+      &copy EF Education First
       </div>
     </div>
 
