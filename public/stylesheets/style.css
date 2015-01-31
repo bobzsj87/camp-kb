@@ -1,6 +1,6 @@
 body{
   background: url(/images/texture.png) repeat;
-  font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti
+  font-family: Helvetica,Arial,"Hiragino Sans GB-W6","华文细黑",STHeiti-Medium,"微软雅黑","Microsoft YaHei",SimHei,sans-serif;
 }
 
 .panel-container{
@@ -31,15 +31,32 @@ body{
 }
 .title-container span{
   text-transform: uppercase;
-  font-family: helvetica77BoldCondensed,Arial,sans-serif; 
+  font-family: helvetica77BoldCondensed,Helvetica,Arial,"Hiragino Sans GB-W6","华文细黑",STHeiti-Medium,"微软雅黑","Microsoft YaHei",SimHei,sans-serif;; 
   font-size:30px;
   padding: 4px 0;
   border-bottom: 1px solid black;
 }
 
+h1{
+  font-size:30px;
+}
+h2{
+  font-size:24px;
+}
+h3{
+  font-size:20px;
+  margin:30px 0 20px 0;
+}
+h4{
+  font-size:18px;
+}
+
+h1,h2,h3,h4{
+  font-weight: bold;
+}
 
 h1,h2, .btn{
-  font-family: helvetica77BoldCondensed,Arial,sans-serif;
+  font-family: helvetica77BoldCondensed,Helvetica,Arial,"Hiragino Sans GB-W6","华文细黑",STHeiti-Medium,"微软雅黑","Microsoft YaHei",SimHei,sans-serif;;
 }
 
 h3, h4{
