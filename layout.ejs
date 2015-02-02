@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <% } %>
     <link rel="stylesheet" href="/stylesheets/style.css">
+
   </head>
   <body>
     <div class="panel-container">
@@ -47,7 +48,29 @@
       &copy EF Education First
       </div>
     </div>
-
-
+    <% if (lang == "zh") { %>
+    <script src="http://libs.baidu.com/jquery/2.0.3/jquery.js"></script>
+    <% } else {%>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <% } %>
+    <script src="/static/lunr.min.js"></script>
+    <script>
+      var lang = "<%= lang %>";
+      var idx;
+      $(document).ready(function(){
+        idx = lunr(function () {
+          this.field('title');
+          this.field('body');
+          this.ref('path');
+        })
+        $.getJSON("/"+lang+"/all.json", function(data){
+          $.each(data, function(k, v){
+            idx.add(v);
+          });
+          console.log(idx.search('Pronunciation'))
+        });
+        
+      })
+    </script>
   </body>
 </html>
