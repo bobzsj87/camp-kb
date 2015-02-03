@@ -38,16 +38,12 @@ body{
 }
 
 
-h1,h2,h3,h4{
+h1,h2,h3,h4, h5{
   font-weight: bold;
 }
 
-h1,h2, .btn{
+h1,h2,h3,h4,h5, .btn{
   font-family: helvetica77BoldCondensed,Helvetica,Arial,"Hiragino Sans GB-W6","华文细黑",STHeiti-Medium,"微软雅黑","Microsoft YaHei",SimHei,sans-serif;;
-}
-
-h3, h4{
-  font-family: Georgia,Times,"Times New Roman",serif
 }
 
 @media (min-width:768px) {
@@ -67,6 +63,9 @@ h3, h4{
   h4{
     font-size:18px;
   }
+  h5{
+    font-size:16px;
+  }
 }
 
 @media (max-width:768px) { 
@@ -83,6 +82,7 @@ h3, h4{
   h4{
     font-size:14px;
   }
+
 }
 
 .list-group-item{
