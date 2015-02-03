@@ -1,5 +1,3 @@
-This article guides you on how to setup for the test.
-
 ###Receiving An Email
 Every test has a unique URL, which only the test taker can get via a pre-registered email. Please make sure that camp.service@ef.com is in the trust list of your mail services.
 
@@ -31,16 +29,17 @@ __Warning: IE8 is the highest version of IE on Windows XP that it NOT supported.
 #####Allow Microphones in Flash 
 When you are in the tech check or the first time of recording, the site will ask you to allow microphone access in Flash. Please click “Allow”.
 
->![](/images/allow1.jpg)
+![adaptable](/images/allow1.jpg)
 
 #####Allow Browsers’ Microphone Access
 If you are using Chrome, there will be a prompt at the top of the page which asks you to allow the microphone access. Please click Allow. If there is an error message showing on the screen, please refresh the page and try again. 
 
->![](/images/allow2.jpg)
+![adaptable](/images/allow2.jpg)
 
 
 If you already denied the microphone access, please use the following link to reset the settings: 
 <chrome://settings/contentExceptions#media-stream>
+
 You can find any camp.englishtown.cn(com) domain and remove it from the setting list. When it is done, refresh the test page and allow the microphone access. 
  
 
@@ -52,7 +51,7 @@ Global Settings
 
 #####Other Issues
 
-If you wish the adjust audio volume in Flash please use: <https://www.adobe.com/support/documentation/en/flashplayer/help/help03.html#117408>
+If you wish the adjust audio volume in Flash: [See here](https://www.adobe.com/support/documentation/en/flashplayer/help/help03.html#117408)
 
 
 If you need more help, please don’t hesitate to contact our representatives.
