@@ -63,11 +63,11 @@
           this.field('body');
           this.ref('path');
         })
-        $.getJSON("/"+lang+"/all.json", function(data){
+        $.getJSON("/search/"+lang+"/all.json", function(data){
           $.each(data, function(k, v){
             idx.add(v);
           });
-          console.log(idx.search('Pronunciation'))
+          console.log(idx.search('OPT'))
         });
         
       })
