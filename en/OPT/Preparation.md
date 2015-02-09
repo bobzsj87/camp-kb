@@ -21,17 +21,17 @@ __Warning: IE8 is the highest version of IE on Windows XP that it NOT supported.
 ####There are 5 steps in the test
 - __Welcome message__
 - __Personal learning preferences.__ You will get a study plan recommendation based on your final score and learning preferences. This will NOT affect your test score. 
-- __Tech Check.__ This is a critical part of the test. You need to record for 10 seconds and hear your recording. Please make sure you do so before you click next step. You should click “Allow” on the Flash permission prompt and Chrome audio permission prompt.
+- __Tech Check.__ This is a critical part of the test. You need to record for 10 seconds and hear your recording. Please make sure you do so before you click next step. You should click "Allow" on the Flash permission prompt and Chrome audio permission prompt.
 - __Test introduction in audio.__ This is an audio walkthrough of the test introductions. You can listen to it as many times as you want. 
 - __Take the test.__ You can finish all the 12 questions or, you can choose to quit if you find it too difficult to answer. The test will be scored based on the questions already answered.
 
 ####Microphone Access
 #####Allow Microphones in Flash 
-When you are in the tech check or the first time of recording, the site will ask you to allow microphone access in Flash. Please click “Allow”.
+When you are in the tech check or the first time of recording, the site will ask you to allow microphone access in Flash. Please click "Allow".
 
 ![adaptable](/images/allow1.jpg)
 
-#####Allow Browsers’ Microphone Access
+#####Allow Browsers' Microphone Access
 If you are using Chrome, there will be a prompt at the top of the page which asks you to allow the microphone access. Please click Allow. If there is an error message showing on the screen, please refresh the page and try again. 
 
 ![adaptable](/images/allow2.jpg)
@@ -54,4 +54,4 @@ Global Settings
 If you wish the adjust audio volume in Flash: [See here](https://www.adobe.com/support/documentation/en/flashplayer/help/help03.html#117408)
 
 
-If you need more help, please don’t hesitate to contact our representatives.
+If you need more help, please don't hesitate to contact our representatives.
