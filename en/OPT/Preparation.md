@@ -29,12 +29,12 @@ __Warning: IE8 is the highest version of IE on Windows XP that it NOT supported.
 #####Allow Microphones in Flash 
 When you are in the tech check or the first time of recording, the site will ask you to allow microphone access in Flash. Please click "Allow".
 
-![adaptable](/images/allow1.jpg)
+![](/images/allow1.jpg)
 
 #####Allow Browsers' Microphone Access
 If you are using Chrome, there will be a prompt at the top of the page which asks you to allow the microphone access. Please click Allow. If there is an error message showing on the screen, please refresh the page and try again. 
 
-![adaptable](/images/allow2.jpg)
+![](/images/allow2.jpg)
 
 
 If you already denied the microphone access, please use the following link to reset the settings: 
