@@ -34,8 +34,11 @@ When you are in the tech check or the first time of recording, the site will ask
 #####Allow Browsers' Microphone Access
 If you are using Chrome, there will be a prompt at the top of the page which asks you to allow the microphone access. Please click Allow. If there is an error message showing on the screen, please refresh the page and try again. 
 
+Old version:
 ![](/images/allow2.jpg)
 
+Newer version：
+![](/images/allow3.jpg)
 
 If you already denied the microphone access, please use the following link to reset the settings: 
 <chrome://settings/contentExceptions#media-stream>
